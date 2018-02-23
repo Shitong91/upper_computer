@@ -1,0 +1,70 @@
+﻿生成启动时间为 2016/7/31 17:10:32。
+     1>项目“C:\Users\Administrator\Desktop\2017 机电测试\2017.2.22\机电调试V14.0\机电调试V1.0\机电调试V1.0.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\机电调试V1.0.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\机电调试V1.0.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\机电调试V1.0.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Angle_Evalu_list.cpp CheckChoiceDlg.cpp Check_ProgresDlg.cpp CopyRightDlg.cpp "C电机Dlg.cpp" "C角度传感器Dlg.cpp" DataChoiceDlg.cpp EvaluateChoiceDlg.cpp Evalute_Angle_Seris.cpp GotoNormalTipDlg.cpp HelpDlg.cpp LockedDataDlg.cpp LockedMotorDlg.cpp ModeChoiceDlg.cpp MotorDataSaveDlg.cpp SerialDlg.cpp mscomm1.cpp tchart1.cpp "机电调试V1.0.cpp" "机电调试V1.0Dlg.cpp"
+         Angle_Evalu_list.cpp
+         CheckChoiceDlg.cpp
+         Check_ProgresDlg.cpp
+         CopyRightDlg.cpp
+         C电机Dlg.cpp
+         C角度传感器Dlg.cpp
+         DataChoiceDlg.cpp
+         EvaluateChoiceDlg.cpp
+         Evalute_Angle_Seris.cpp
+     1>Evalute_Angle_Seris.cpp(72): warning C4101: “bia_aver”: 未引用的局部变量
+     1>Evalute_Angle_Seris.cpp(72): warning C4101: “bia_sum”: 未引用的局部变量
+         GotoNormalTipDlg.cpp
+         HelpDlg.cpp
+         LockedDataDlg.cpp
+         LockedMotorDlg.cpp
+         ModeChoiceDlg.cpp
+         MotorDataSaveDlg.cpp
+         SerialDlg.cpp
+         mscomm1.cpp
+         tchart1.cpp
+         机电调试V1.0.cpp
+         机电调试V1.0Dlg.cpp
+     1>机电调试V1.0Dlg.cpp(1035): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\机电调试V1.0.res" "机电调试V1.0.rc" 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\2017 机电测试\2017.2.22\机电调试V14.0\Release\机电调试V1.0.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\机电调试V1.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\2017 机电测试\2017.2.22\机电调试V14.0\Release\机电调试V1.0.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\2017 机电测试\2017.2.22\机电调试V14.0\Release\机电调试V1.0.lib" /MACHINE:X86 "Release\机电调试V1.0.res"
+         Release\Angle_Evalu_list.obj
+         Release\CheckChoiceDlg.obj
+         Release\Check_ProgresDlg.obj
+         Release\CopyRightDlg.obj
+         "Release\C电机Dlg.obj"
+         "Release\C角度传感器Dlg.obj"
+         Release\DataChoiceDlg.obj
+         Release\EvaluateChoiceDlg.obj
+         Release\Evalute_Angle_Seris.obj
+         Release\GotoNormalTipDlg.obj
+         Release\HelpDlg.obj
+         Release\LockedDataDlg.obj
+         Release\LockedMotorDlg.obj
+         Release\ModeChoiceDlg.obj
+         Release\MotorDataSaveDlg.obj
+         Release\mscomm1.obj
+         Release\SerialDlg.obj
+         Release\stdafx.obj
+         Release\tchart1.obj
+         "Release\机电调试V1.0.obj"
+         "Release\机电调试V1.0Dlg.obj"
+         正在生成代码
+         已完成代码的生成
+         机电调试V1.0.vcxproj -> C:\Users\Administrator\Desktop\2017 机电测试\2017.2.22\机电调试V14.0\Release\机电调试V1.0.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Desktop\2017 机电测试\2017.2.22\机电调试V14.0\Release\机电调试V1.0.exe;#1" /manifest "Release\机电调试V1.0.exe.intermediate.manifest" "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\机电调试V1.0.unsuccessfulbuild”。
+         正在对“Release\机电调试V1.0.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\2017 机电测试\2017.2.22\机电调试V14.0\机电调试V1.0\机电调试V1.0.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.44

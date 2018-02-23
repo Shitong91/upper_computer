@@ -1,0 +1,1 @@
+将两个文件放在C:/WINDOWS/System32下，然后双击注册控件.bat
